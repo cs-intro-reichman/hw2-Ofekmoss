@@ -16,7 +16,6 @@ public class Collatz {
 			if (isV) System.out.print(String.format("%s ", n));
 			if (isV) System.out.println(String.format("(%s)", count));
 		}
-		if (isV) System.out.println();
 		System.out.println(String.format("Every one of the first %s hailstone sequences reached 1.", args[0]));
 	}
 	
