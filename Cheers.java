@@ -12,7 +12,7 @@ public class Cheers {
                 String vowels = "AEFHILMNORSX";
 
                 for (char c : name.toCharArray()) {
-                        System.out.println(String.format("Give me %s %s: %s!", (vowels.indexOf(c) != -1 ? "an" : "a "), Character.toUpperCase(c), Character.toUpperCase(c)));
+                        System.out.println(String.format("Give me %s %s: %s!", (vowels.indexOf(c) != -1 ? "an" : "a "), c, Character.toUpperCase(c)));
                 }
 
                 int numberOfCheers = Integer.parseInt(args[1]);
